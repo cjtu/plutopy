@@ -2,3 +2,4 @@
 The following people have contributed to this repository:
 
 - Christian Tai Udovicic
+- Tabatha Trigler
