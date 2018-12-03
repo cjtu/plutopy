@@ -8,7 +8,9 @@ Thank you for showing interest in contributing to the plutopy package! Below you
 - Fork the repository on GitHub
 - Clone the repository locally
 
-## Building the Anaconda Environment
+## Set up a local plutopy environment
+
+### Building the Anaconda Environment
 Enter the cloned plutopy directory from the shell. Run the following command to build the required Anaconda environment.
 
 ```bash
@@ -16,6 +18,15 @@ conda env create -f environment.yml
 ```
 
 Once the dependencies have been installed, you can activate the environment with `activate plutopy-env` on Windows, or `source activate plutopy-env` on mac / Linux. For more on Anaconda environments, see the documentation [here](https://conda.io/docs/using/envs.html).
+
+### Installing plutopy locally
+Make sure you are in the root plutopy directory and that the `plutopy-env` is activated. Run the following command to install a local version of plutopy:
+
+```basha
+pip install -e
+```
+
+This will allow you to `import plutopy` as long as the plutopy-env is activated.
 
 ## Contributing
 - Comment on the issue that you would like to work on, or open a new issue with your suggestion on the [issues](https://github.com/cjtu/plutopy/issues) page
