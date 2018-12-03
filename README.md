@@ -8,6 +8,7 @@ This repository exists to import, visualize and manipulate an image of Pluto tak
 TODO: Take some screenshots of plutopy in action and add them to the README.
 
 ## Tutorial
+See the tutorial for plutopy [here](./plutopy/jupyter_notebooks/tutorial.ipynb)
 TODO: Create a full worked example of plutopy in action in a Jupyter notebook, and add a link to the README. 
 
 ## Data
