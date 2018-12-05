@@ -20,18 +20,45 @@ conda env create -f environment.yml
 Once the dependencies have been installed, you can activate the environment with `activate plutopy-env` on Windows, or `source activate plutopy-env` on mac / Linux. For more on Anaconda environments, see the documentation [here](https://conda.io/docs/using/envs.html).
 
 ### Installing plutopy locally
-Make sure you are in the root plutopy directory and that the `plutopy-env` is activated. Run the following command to install a local version of plutopy:
+Make sure you are in the root plutopy directory and that the `plutopy-env` is activated. Run the following command to install a local version of plutopy (include the `.`):
 
 ```bash
-pip install -e
+pip install -e .
 ```
 
 This will allow you to `import plutopy` as long as the plutopy-env is activated.
 
 ### Keeping your fork up to date
-As the main plutopy repository `cjtu/plutopy` is updated, your fork `<your_user>/plutopy` will get out of sync.
+As the main plutopy repository `cjtu/plutopy` is updated, your fork `<your_user>/plutopy` will get out of sync. This could lead to merge conflicts when you try to open a pull request on GitHub. To update your fork of plutopy, you will need to add the main plutopy repository to an `upstream` branch. This only needs to be done *once*.
 
-See [here](https://gist.github.com/CristinaSolana/1885435) for a quick guide on how to keep your fork up to date.
+```bash
+cd /your/path/to/plutopy
+git remote add upstream git://github.com/cjtu/plutopy.git
+```
+
+Now, whenever you suspect there are changes to the main plutopy repository, you can run:
+
+```bash
+git fetch upstream
+```
+
+If changes were downloaded, you need to `merge` those changes into the branch you are working on. To merge, first switch to the branch you are working on, then merge in the changes from `upstream/master`. If you are working on branch master:
+
+```bash
+git checkout master # Switch to the branch you want to merge the changes into
+git merge upstream/master # Merges changes from the master branch of upstream
+```
+
+In most cases this will be a *fast-forward* merge and you will be goood to go. In some cases you will have a *merge conflict*, meaning the same line(s) in the same file(s) were altered. This is a quick guide on what to do [when git fails during a merge](http://genomewiki.ucsc.edu/index.php/Resolving_merge_conflicts_in_Git#Common_questions_for_when_git_fails_during_the_merge). There are many of these online guides and even tools available to visualize merge conflicts. It basically amounts to manually editing the conflicted file(s) and committing the "fixed" file(s).
+
+Finally your local plutopy fork is up to date, but this does not change your GitHub version of the fork. To have the updated local version reflected on GitHub, you need to `push` your updated fork to GitHub.
+
+```bash
+git push
+```
+
+For more info on these steps or if you're having trouble, see the following [configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/), [syncing a fork](https://help.github.com/articles/syncing-a-fork/), and [resolving a merge conflict](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
+
 
 ## Contributing
 - Comment on the issue that you would like to work on, or open a new issue with your suggestion on the [issues](https://github.com/cjtu/plutopy/issues) page
