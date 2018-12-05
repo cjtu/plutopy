@@ -22,11 +22,16 @@ Once the dependencies have been installed, you can activate the environment with
 ### Installing plutopy locally
 Make sure you are in the root plutopy directory and that the `plutopy-env` is activated. Run the following command to install a local version of plutopy:
 
-```basha
+```bash
 pip install -e
 ```
 
 This will allow you to `import plutopy` as long as the plutopy-env is activated.
+
+### Keeping your fork up to date
+As the main plutopy repository `cjtu/plutopy` is updated, your fork `<your_user>/plutopy` will get out of sync.
+
+See [here](https://gist.github.com/CristinaSolana/1885435) for a quick guide on how to keep your fork up to date.
 
 ## Contributing
 - Comment on the issue that you would like to work on, or open a new issue with your suggestion on the [issues](https://github.com/cjtu/plutopy/issues) page
