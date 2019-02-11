@@ -1,18 +1,19 @@
-# Plutopy
-Welcome to **plutopy**, a community that teaches and promotes reproducible planetary science!
+# Plutopy [![DOI](https://zenodo.org/badge/160094716.svg)](https://zenodo.org/badge/latestdoi/160094716)
 
-Our primary goal is to serve as a supportive, self-directed learning community aimed at scientists who are interested in producing quality reproducible analysis of planetary data.
+Welcome to **plutopy**, a community that teaches and promotes reproducible planetary image analysis!
 
-No programming or Git experience is required!
+Our primary goal is to serve as a supportive, self-directed learning community aimed at scientists who are interested in producing reproducible analysis of planetary data.
+
+No Git experience is required!
 
 ## Can I join plutopy?
 
 If you are interested in any of the following:
 
 - processing and analyzing planetary data in a way that anybody can run and get the same result
-- learning new tech skills to improve the quality and transparency of your work
-- sharing code that you wrote with the planetary science community
-- promoting the repeatability of data analysis in science
+- learning new skills to improve the quality and transparency of your work
+- sharing your code with the wider planetary science community
+- teaching the community the best practices of planetary image data analysis
 
 Then we think you'd be a good fit for the plutopy community!
 
@@ -20,37 +21,42 @@ Then we think you'd be a good fit for the plutopy community!
 
 Currently, plutopy is focused on teaching the following skills:
 
-- Git, GitHub and version control 
+- Git, GitHub and version control
 - Planetary image analysis with Python
 - Reproducible analysis and plots with Jupyter notebooks
+- How to package code so that it can be run on another machine
 - ...and more targeted planetary analysis skills coming soon!
 
 ## How it works
 
-Learning reproducible science with Plutopy is an entirely self-paced process. You will begin with a module to learn the basics of Git, and how to contribute to the main Plutopy repository. Then you will be ready to take on new tasks and learn new tools by solving real problems with data analysis tools in Python. Each solved problem will be contributed to the main repository so that, over time, Plutopy will grow into a dynamic resource with several worked examples of different types of planetary data analysis. 
+Learning reproducible science with Plutopy is an entirely self-paced process. You will begin with [a module](https://github.com/cjtu/plutopy/issues/1) to learn the basics of Git, and how to contribute to the main Plutopy repository on GitHub. Then you will be ready to take on new modules, and contribute your solutions to the main Plutopy repository. Each contribution will be reviewed by a community member so that you get feedback on your work before it is added to the repository. Over time, Plutopy will grow into a dynamic resource with several worked examples of different types of planetary data analysis.
 
 ## Applying skills to my own work
 
-Plutopy gives you a place to try and experiment with new techniques in a supportive and open community. Your contributions to the main repository will be reviewed by other Plutopy contributors so that you receive feedback on your learning. When you feel confident in a new skill, we encourage you to apply it to your own research. You can also use the [issue board](https://github.com/cjtu/plutopy/issues) to ask questions to the community if you get stuck.
-
+Plutopy gives you a place to try and experiment with new techniques in a supportive and open community. Your contributions to the main repository will be reviewed by other Plutopy contributors so that you receive feedback on your learning. When you feel confident in a new skill, we encourage you to apply it to your own research. You can also use the [issue board](https://github.com/cjtu/plutopy/issues) to ask questions to the community if you get stuck. All examples you find in Plutopy are open-source and can be edited and used in your own work. We simply ask that you cite plutopy in any work that uses it to give credit to the contributors.
 
 # The plutopy repository
 
 ## Overview
+
 While Plutopy is meant as a teaching community, it also contains a Python data analysis package, also called **plutopy**. The **plutopy** repository will be built upon by collaborators to import, visualize and manipulate an image of Pluto taken by the New Horizons mission in 2015. In building this mock Python package, Plutopy members will learn best practices of collaboration with Git, writing clear Python functions, and reproducible analysis using those functions.
 
 ## Tutorial
+
 See the tutorial for the **plutopy** Python package [here](./plutopy/jupyter_notebooks/tutorial.ipynb)
 
 ## Data
+
 The image used is the *Pluto New Horizons Global Mosaic 300m July 2017*. The data was collected by [Moore et al. 2016](https://arxiv.org/abs/1604.05702) and made available by the U.S. Geologic Survey [here](https://astrogeology.usgs.gov/search/map/Pluto/NewHorizons/Pluto_NewHorizons_Global_Mosaic_300m_Jul2017).
 
 The features of interest are stored in the Comma Separated Values (CSV) file format, and were generated by Christian Tai Udovicic.
 
 ## Processing
+
 The image handling is done with Python bindings for [GDAL](https://www.gdal.org/index.html), features of interest are read in with [Pandas](https://pandas.pydata.org/pandas-docs/stable/), the analysis is done with [numpy](http://www.numpy.org/) and [scipy](https://www.scipy.org/about.html), and the plotting is done with [matplotlib](https://matplotlib.org/). The tutorial and worked examples are written in [Jupyter](http://jupyter.org/) notebooks. All of these packages are installed and managed with the [Anaconda](https://www.anaconda.com/) package manager.
 
 Some useful tutorials/documentation on the above packages:
+
 - [Getting started with conda](https://conda.io/docs/user-guide/getting-started.html)
 - [Python GDAL/OGR Cookbook](https://pcjericks.github.io/py-gdalogr-cookbook/)
 - [10 Minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html)
@@ -60,12 +66,13 @@ Some useful tutorials/documentation on the above packages:
 - [Running the Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html)
 
 # Joining and Contributing to Plutopy
+
 All contributors to this project are listed in [CONTRIBUTORS.md](./CONTRIBUTORS.md). If you would like to be a contributor, first read [CONTRIBUTING.md](./CONTRIBUTING.md) and then head over to the [issue tracker](https://github.com/cjtu/plutopy/issues) and start with issue [#1: Submitting your first pull request](https://github.com/cjtu/plutopy/issues/1). All are welcome!
 
 ## Code of Conduct
+
 This repository is governed by a code of coduct. See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for more details.
 
 ## License
+
 This repository is released under the MIT license for open and warranty-free use and reproduction. See the [LICENSE](./LICENSE) for more details. To learn more about the imporance of a license, see this [explanation](https://choosealicense.com/no-permission/). To learn what the legal jargon in a particular license means, check out [ChooseALicense.com](https://choosealicense.com).
-
-
