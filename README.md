@@ -33,7 +33,7 @@ Learning reproducible science with Plutopy is an entirely self-paced process. Yo
 
 ## Applying skills to my own work
 
-Plutopy gives you a place to try and experiment with new techniques in a supportive and open community. Your contributions to the main repository will be reviewed by other Plutopy contributors so that you receive feedback on your learning. When you feel confident in a new skill, we encourage you to apply it to your own research. You can also use the [issue board](https://github.com/cjtu/plutopy/issues) to ask questions to the community if you get stuck. All examples you find in Plutopy are open-source and can be edited and used in your own work. We simply ask that you cite plutopy in any work that uses it to give credit to the contributors.
+Plutopy gives you a place to learn a new technique in a supportive and open community. Your contributions to the main repository will be reviewed by other Plutopy contributors so that you receive feedback on your learning. When you feel confident in a new skill, we encourage you to apply it to your own research. You can also use the [issue board](https://github.com/cjtu/plutopy/issues) to ask questions to the community if you get stuck. All examples you find in **plutopy** are open-source (see [License](#License)) and can be edited or adapted for use in your own work. We simply ask that you cite plutopy in any work that uses it to give credit to the contributors (see [CONTRIBUTORS](./CONTRIBUTORS.md) and citable [DOI](https://zenodo.org/badge/latestdoi/160094716)).
 
 # The plutopy repository
 
