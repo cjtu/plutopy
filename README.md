@@ -1,4 +1,8 @@
-# Plutopy [![DOI](https://zenodo.org/badge/160094716.svg)](https://zenodo.org/badge/latestdoi/160094716)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/160094716.svg)](https://zenodo.org/badge/latestdoi/160094716)
+
+# Plutopy 
 
 Welcome to **plutopy**, a community that teaches and promotes open source planetary science!
 
