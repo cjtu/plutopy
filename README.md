@@ -1,6 +1,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/160094716.svg)](https://zenodo.org/badge/latestdoi/160094716)
+[![Gitter](https://badges.gitter.im/plutopy/community.svg)](https://gitter.im/plutopy/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Plutopy 
 
@@ -19,7 +20,7 @@ Broadly, open source describes anything publicly available that people can modif
 Plutopy participation is open to everyone! To get acquainted with this repository and the basics of **plutopy**, you will need:
 
 - A free Github account (sign up [here](https://github.com/join))
-- To install Git on your computer (guide [here](https://www.atlassian.com/git/tutorials/install-git#windows))
+- A computer with Git (try `git --version` in a terminal. No luck? See install guide [here](https://www.atlassian.com/git/tutorials/install-git))
 - About 20 minutes to complete the **plutopy** tutorial [here](https://github.com/cjtu/plutopy/issues/1)
 
 ## Not convinced?

@@ -49,7 +49,7 @@ git checkout master # Switch to the branch you want to merge the changes into
 git merge upstream/master # Merges changes from the master branch of upstream
 ```
 
-In most cases this will be a *fast-forward* merge and you will be goood to go. In some cases you will have a *merge conflict*, meaning the same line(s) in the same file(s) were altered. This is a quick guide on what to do [when git fails during a merge](http://genomewiki.ucsc.edu/index.php/Resolving_merge_conflicts_in_Git#Common_questions_for_when_git_fails_during_the_merge). There are many of these online guides and even tools available to visualize merge conflicts. It basically amounts to manually editing the conflicted file(s) and committing the "fixed" file(s).
+In most cases this will be a *fast-forward* merge and you will be good to go. In some cases you will have a *merge conflict*, meaning the same line(s) in the same file(s) were altered. This is a quick guide on what to do [when git fails during a merge](http://genomewiki.ucsc.edu/index.php/Resolving_merge_conflicts_in_Git#Common_questions_for_when_git_fails_during_the_merge). There are many of these online guides and even tools available to visualize merge conflicts. It basically amounts to manually editing the conflicted file(s) and committing the "fixed" file(s).
 
 Finally your local plutopy fork is up to date, but this does not change your GitHub version of the fork. To have the updated local version reflected on GitHub, you need to `push` your updated fork to GitHub.
 
