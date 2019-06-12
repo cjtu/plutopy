@@ -1,4 +1,4 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/160094716.svg)](https://zenodo.org/badge/latestdoi/160094716)
 [![Gitter](https://badges.gitter.im/plutopy/community.svg)](https://gitter.im/plutopy/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
